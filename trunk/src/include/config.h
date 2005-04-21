@@ -23,14 +23,13 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: include/config.h,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
 
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
-#include "rcfs.h"
+#include "collective.h"
 
 #define CONFIG_RADIO_JR     0x00
 #define CONFIG_RADIO_FUTABA 0x01

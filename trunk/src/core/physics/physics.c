@@ -23,7 +23,6 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: Core/Physics/physics.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
 #include <stdio.h>
@@ -37,7 +36,7 @@
 #endif
 #include <math.h>
 
-#include "rcfs.h"
+#include "collective.h"
 #include "maths.h"
 #include "mixers.h"
 #include "model.h"

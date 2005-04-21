@@ -6,7 +6,7 @@
 /************************************************************************/
 
 #include "joystick.h"
-#include "rcfs.h"
+#include "collective.h"
 
 #define STRICT
 #define DIRECTINPUT_VERSION 0x0800
@@ -59,7 +59,7 @@ int Joystick_Initialize(void)
 	HRESULT hr;
 	HWND hWnd = NULL;
 
-	sprintf(versionInfo,"RCFS v%s",RCFS_VERSION);
+	sprintf(versionInfo,"Collective v%s",COLLECTIVE_VERSION);
 
 	hWnd = FindWindow("GLUT", versionInfo);
 

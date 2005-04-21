@@ -23,8 +23,6 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: config.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
- *
  */
 
 #include <stdio.h>
@@ -52,7 +50,7 @@
 #define getcwd   _getcwd
 #endif
 
-#include "rcfs.h"
+#include "collective.h"
 #include "logger.h"
 
 /*

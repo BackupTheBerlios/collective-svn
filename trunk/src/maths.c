@@ -23,13 +23,12 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: maths.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
  
  #include <math.h>
  
- #include "rcfs.h"
+ #include "collective.h"
  
  void Maths_IdentityMatrix(float *m) {
 	m[ 0] = 1.0f; m[ 1] = 0.0f; m[ 2] = 0.0f; m[ 3] = 0.0f;

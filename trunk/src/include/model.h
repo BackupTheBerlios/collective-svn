@@ -23,14 +23,13 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: include/model.h,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
 
 #ifndef _MODEL_H_
 #define _MODEL_H_
 
-#include "rcfs.h"
+#include "collective.h"
 
 typedef struct {
   // Geometry

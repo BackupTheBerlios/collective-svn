@@ -202,6 +202,9 @@
 				RelativePath="..\..\src\include\audio.h">
 			</File>
 			<File
+				RelativePath="..\..\src\include\collective.h">
+			</File>
+			<File
 				RelativePath="..\..\src\include\config.h">
 			</File>
 			<File
@@ -233,9 +236,6 @@
 			</File>
 			<File
 				RelativePath="..\..\src\include\physics.h">
-			</File>
-			<File
-				RelativePath="..\..\src\include\rcfs.h">
 			</File>
 			<File
 				RelativePath="..\..\src\include\texturemanager.h">

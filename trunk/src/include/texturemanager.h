@@ -1,7 +1,7 @@
 #ifndef _TEXTUREMANAGER_H_
 #define _TEXTUREMANAGER_H_
 
-#include "rcfs.h"
+#include "collective.h"
 
 #define TEXTURE_FORMAT_TGA 0
 #define TEXTURE_FORMAT_BMP 1

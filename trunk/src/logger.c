@@ -23,7 +23,6 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: logger.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
 
@@ -31,7 +30,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 
-#include "rcfs.h"
+#include "collective.h"
 #include "logger.h"
 
 static FILE *syslog_fd = NULL;

@@ -23,7 +23,6 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: Core/Model/Model.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
  
@@ -31,7 +30,7 @@
  * More or less concept code..
  */
  
-#include "rcfs.h" 
+#include "collective.h" 
 #include "model.h"
 #include "logger.h"
 #include "config.h"

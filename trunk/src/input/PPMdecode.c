@@ -23,13 +23,12 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: Input/PPMdecode.c,v 1.1.1.1 2005/04/02 17:41:54 jaja Exp $
  *
  */
  
  #include <stdio.h>
 
-#include "rcfs.h"
+#include "collective.h"
 #include "logger.h"
 #include "config.h"
 

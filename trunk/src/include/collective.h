@@ -23,12 +23,11 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: include/rcfs.h,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
  
-#ifndef _RCFS_H_
-#define _RCFS_H_
+#ifndef _COLLECTIVE_H_
+#define _COLLECTIVE_H_
 
 #if (defined WIN32 || defined DARWIN )
 #include <GLUT/glut.h>
@@ -38,7 +37,8 @@
 #endif
 #endif
 
-#define RCFS_VERSION "0.0"
+#define COLLECTIVE_NAME "Collective"
+#define COLLECTIVE_VERSION "0.0"
 
 typedef unsigned char      uint8;
 typedef char                int8;

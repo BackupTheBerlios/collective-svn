@@ -23,11 +23,10 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: Core/Mixers/passthrough.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
  
-#include "rcfs.h"
+#include "collective.h"
 #include "config.h"
 
  /*

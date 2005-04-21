@@ -23,13 +23,12 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: Graphics/OpenGL.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "rcfs.h"
+#include "collective.h"
 #include "maths.h"
 #include "logger.h"
 #include "config.h"
@@ -502,7 +501,7 @@ void Graphics_Initialize(int *argc,char **argv) { /* GLut need the args, as well
 
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH );
 
-	sprintf(versionInfo,"RCFS v%s",RCFS_VERSION);
+	sprintf(versionInfo,"Collective v%s",COLLECTIVE_VERSION);
 	window = glutCreateWindow(versionInfo);
 	glutSetWindow(window);
 	

@@ -23,11 +23,9 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: dynload.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
- *
  */
  
-#include "rcfs.h"
+#include "collective.h"
 #include "logger.h"
 #include "audio.h"
 #include "input.h"

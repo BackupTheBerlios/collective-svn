@@ -23,7 +23,6 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- * $RCFS: main.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
  *
  */
 #include <stdio.h>
@@ -36,7 +35,7 @@
 #include <direct.h>
 #endif
 
-#include "rcfs.h"
+#include "collective.h"
 #include "dynload.h"
 #include "config.h"
 #include "logger.h"
@@ -75,11 +74,11 @@ int main(int argc,char **argv) {
 
 	if (dir == NULL)
 	{
-		sprintf(cwdcfg,"%s/rcfs.cfg",getcwd(tmpstr,100));
+		sprintf(cwdcfg,"%s/collective.cfg",getcwd(tmpstr,100));
 	}
 	else
 	{
-		sprintf(cwdcfg,"%s/rcfs.cfg",dir);
+		sprintf(cwdcfg,"%s/collective.cfg",dir);
 	}
 
 	Config_read(cwdcfg);
