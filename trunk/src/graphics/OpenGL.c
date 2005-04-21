@@ -495,7 +495,7 @@ static void Graphics_Particle_Display(void) {
 }
 
 void Graphics_Initialize(int *argc,char **argv) { /* GLut need the args, as well as SGIs MultiPipe */
-	char versionInfo[15];
+	char versionInfo[20];
 
 	glutInit(argc,argv);
 

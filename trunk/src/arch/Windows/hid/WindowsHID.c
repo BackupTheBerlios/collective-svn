@@ -54,7 +54,7 @@ BOOL CALLBACK EnumObjectsCallback( const DIDEVICEOBJECTINSTANCE* pdidoi,
 
 int Joystick_Initialize(void)
 {
-	char versionInfo[15];
+	char versionInfo[20];
 
 	HRESULT hr;
 	HWND hWnd = NULL;
