@@ -237,7 +237,7 @@ void Physics_Update(void) {
 	Maths_VectorAdd(physics.heli.pos,tmpVector);
 
 	// Crash reset (!!! hax)
-#if 1
+#if 0
 	if(physics.heli.pos[1] < 0.5f) {
 		Maths_IdentityMatrix(physics.heli.rotationMatrix);
 		Maths_IdentityMatrix(physics.heli.finalMatrix);
@@ -256,21 +256,21 @@ void Physics_Update(void) {
 		physics.heli.speed[3] = 1.0f;		
 	}
 #endif
-#if 0
+#if 1
 	if(physics.heli.pos[1] < 0.5f) {
 		float upVector[4];
 		
-		physics.heli.speed[1] = 0.0;
+		physics.heli.speed[1] = 0.000001;
 		physics.heli.pos[1] = 0.5;
 
-		physics.heli.speed[0] = 0.0;
-		physics.heli.speed[2] = 0.0;
+		physics.heli.speed[0] = 0.000001;
+		physics.heli.speed[2] = 0.000001;
 
 		upVector[0] = 0.0; upVector[1] = 1.0; upVector[2] = 0.0; upVector[3] = 1.0;
 
 		Maths_VectorMatrixMultiply(tmpVector,upVector,physics.heli.rotationMatrix);
 	
-		tmpVector[0] = tmpVector[0] * deltaTime;
+		tmpVector[0] = -tmpVector[0] * deltaTime;
 		tmpVector[2] = tmpVector[2] * deltaTime;
 	
 		Maths_EulerRotation(tmpMatrix,tmpVector[2],0.0f,0.0f);
