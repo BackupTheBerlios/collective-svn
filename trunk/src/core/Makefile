@@ -1,3 +1,3 @@
-include Core/Physics/Makefile
-include Core/Models/Makefile
-include Core/Mixers/Makefile
+include core/physics/Makefile
+include core/models/Makefile
+include core/mixers/Makefile

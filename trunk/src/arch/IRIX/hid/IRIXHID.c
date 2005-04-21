@@ -23,26 +23,23 @@
 * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 * SUCH DAMAGE.
 *
-* $RCFS: Input/darwinjoystick.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
+* $RCFS: Audio/IRIX/IRIXHID.c,v 1.1.1.1 2005/03/17 17:41:54 jaja Exp $
 *
 */
 
 /*
- * Placeholder for joystick functions for Darwin, so we avoid compilation errors
+ * Placeholder for joystick functions for IRIX, so we avoid compilation errors
  */
 #include <stdio.h>
 
 #include "joystick.h"
-#include "rcfs.h"
+#include "collective.h"
 
 #define MAX_CHANNELS 16
 
 
 static float channel[MAX_CHANNELS];
 
-int Joystick_Audio_Initialize(int mode) {
-	return(0);
-}
 
 int Joystick_Initialize(void) {
 	return(0);

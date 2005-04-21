@@ -32,7 +32,7 @@
 #include <dmedia/audio.h>
 #include <dmedia/audiofile.h>
 
-#include "rcfs.h"
+#include "collective.h"
 #include "logger.h"
 
 static double        samprate;

@@ -1,17 +1,17 @@
 include Makefile.setup
 
-include Input/Makefile
-include Audio/Makefile
-include Graphics/Makefile
-include Core/Physics/Makefile
-include Core/Mixers/Makefile
-include Core/Model/Makefile
+include input/Makefile
+include graphics/Makefile
+include core/physics/Makefile
+include core/mixers/Makefile
+include core/model/Makefile
+include arch/Makefile
 
 LINKAGE += main.o dynload.o logger.o maths.o config.o
 
-all: rcfs.$(OSTYPE) 
+all: ../dist/$(OSTYPE)/collective
 
-rcfs.$(OSTYPE): $(LINKAGE)
+../dist/$(OSTYPE)/collective: $(LINKAGE)
 	@@echo "Linking   $@"
 #	@$(LD) $(LDFLAGS) -o $@ $(LINKAGE)
 	@$(LD) -o $@ $(LINKAGE) $(LDFLAGS) 
@@ -25,6 +25,13 @@ ifeq ($(OSTYPE),IRIX)
 	@@echo "Linking $@"
 	@$(LD) $(LDFLAGS) -shared $<.o -soname $@ -o $@
 endif
+
+ifeq ($(OSTYPE),Linux)
+%.o:%.so
+	@@echo "Linking $@"
+	@$(LD) $(LDFLAGS) -shared $<.o -soname $@ -o $@
+endif
+
 ifeq ($(OSTYPE),Darwin)
 %.o:%.so
 	@echo "Linking $@"

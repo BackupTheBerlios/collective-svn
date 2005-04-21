@@ -1,4 +1,4 @@
-include Audio/$(OSTYPE)/Makefile
+include arch/$(OSTYPE)/Makefile
 
 #audio.so: $(AUDIO_LINKAGE)
 #	@echo "Linking   $@"

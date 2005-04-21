@@ -33,7 +33,7 @@
 #include <stdio.h>
 
 #include "joystick.h"
-#include "rcfs.h"
+#include "collective.h"
 
 #define MAX_CHANNELS 16
 

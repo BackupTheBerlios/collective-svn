@@ -1,4 +1,4 @@
-CORE_MODEL_DIR := Core/Model
+CORE_MODEL_DIR := core/model
 
 LINKAGE += \
 	$(CORE_MODEL_DIR)/Model.o \

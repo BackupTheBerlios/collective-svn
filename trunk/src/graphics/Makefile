@@ -1,4 +1,4 @@
-GRAPHICS_DIR := Graphics
+GRAPHICS_DIR := graphics
 
 LINKAGE += \
 	$(GRAPHICS_DIR)/OpenGL.o \

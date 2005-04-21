@@ -8,6 +8,7 @@ snd_pcm_hw_params_t *hw_params;
 
 int Audio_Initialize(int mod) 
 {
+#if 0
 	capture_handle = NULL;
 	int i,err;
 	short buf[128];
@@ -87,6 +88,8 @@ int Audio_Initialize(int mod)
 				
 	snd_pcm_close (capture_handle);
 	exit (0);
+#endif
+	return 0;
 }
 
 float Audio_GetSamplingRate(void) 

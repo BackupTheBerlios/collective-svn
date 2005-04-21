@@ -27,7 +27,7 @@
  *
  */
 
-#include "rcfs.h"
+#include "collective.h"
 #include "logger.h"
 
 #include <stdio.h>

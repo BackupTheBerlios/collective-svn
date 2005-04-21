@@ -1,4 +1,4 @@
-AUDIO_DARWIN_DIR := Audio/Darwin
+AUDIO_DARWIN_DIR := arch/Darwin/audio
 
 LINKAGE += \
 	$(AUDIO_DARWIN_DIR)/Darwinaudio.o \
