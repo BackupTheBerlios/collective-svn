@@ -114,7 +114,6 @@
 				HEADER_SEARCH_PATHS = ../../src/include;
 				INFOPLIST_FILE = "CarbonCollective-Info.plist";
 				INSTALL_PATH = "$(USER_APPS_DIR)";
-				OPTIMIZATION_CFLAGS = "";
 				OTHER_CFLAGS = "-DDARWIN";
 				OTHER_LDFLAGS = "-framework Carbon";
 				OTHER_REZFLAGS = "";
@@ -156,10 +155,9 @@
 			explicitFileType = wrapper.application;
 			includeInIndex = 0;
 			isa = PBXFileReference;
-			name = CarbonCollective.app;
-			path = build/CarbonCollective.app;
-			refType = 4;
-			sourceTree = "<group>";
+			path = CarbonCollective.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		8DD9276F08182EB3000E72F7 = {
 			children = (
