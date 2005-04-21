@@ -187,7 +187,7 @@ void GUI_Draw_Background(void) {
 		for(x=0;x<512;x++) {
 			rawinterfacetexture[(y*512+x)*3+0] = 0x33;
 			rawinterfacetexture[(y*512+x)*3+1] = 0x33;
-			rawinterfacetexture[(y*512+x)*3+2] = 0xCC;
+			rawinterfacetexture[(y*512+x)*3+2] = 64 + (x / 8) + (y / 4);
 		}
 	}
 }
