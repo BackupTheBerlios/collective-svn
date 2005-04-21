@@ -1,0 +1,6 @@
+AUDIO_IRIX_DIR := Audio/IRIX
+
+LINKAGE += \
+	$(AUDIO_IRIX_DIR)/audiolib.o \
+	$(AUDIO_IRIX_DIR)/IRIXHID.o
+

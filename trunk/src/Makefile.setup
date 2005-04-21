@@ -1,0 +1,35 @@
+ifeq ($(OSTYPE),)
+	OSTYPE := $(shell uname -s)
+endif
+
+ifeq ($(OSTYPE),IRIXmipspro)
+	CC = cc
+	LD = cc
+	CFLAGS = -n32 -O2 -DIRIX -DOPENGL
+	LDFLAGS = -n32 -woff 84
+endif
+
+ifeq ($(OSTYPE),IRIX64)
+        CC = gcc
+        LD = gcc
+        CFLAGS = -g -O2 -DBIG_ENDIAN -DSIXTYFOURBIT -DIRIX -DOPENGL -I/usr/freeware/include
+        LDFLAGS = -L/usr/lib32 -L/usr/freeware/lib -lglut -lGL -lX11 -lXm -lGLU -lm -laudio
+	OSTYPE = IRIX
+endif
+
+ifeq ($(OSTYPE),Linux)
+        CC = gcc
+        LD = gcc
+        CFLAGS = -g -O2 -I/usr/include -DOPENGL -DLINUX
+        LDFLAGS =  -L/usr/lib -L/usr/X11R6/lib -lglut -lGL -lX11 -lXmu -lGLU -lm -lasound
+endif
+
+
+ifeq ($(OSTYPE),Darwin)
+	CC = gcc
+	LD = gcc
+	CFLAGS = -g -O2 -DDARWIN -DBIG_ENDIAN -DOPENGL -mcpu=750 -maltivec -mabi=altivec -fomit-frame-pointer -funroll-loops -Wall -std=c99
+	LDFLAGS = -lc -ldl -framework CoreAudio -framework OpenGL -framework GLUT -framework Foundation
+	SOFLAGS = -bundle -flat_namespace -undefined suppress 
+endif
+
