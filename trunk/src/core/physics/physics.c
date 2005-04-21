@@ -237,7 +237,7 @@ void Physics_Update(void) {
 	Maths_VectorAdd(physics.heli.pos,tmpVector);
 
 	// Crash reset (!!! hax)
-#if 0
+#if 1
 	if(physics.heli.pos[1] < 0.5f) {
 		Maths_IdentityMatrix(physics.heli.rotationMatrix);
 		Maths_IdentityMatrix(physics.heli.finalMatrix);
@@ -256,7 +256,7 @@ void Physics_Update(void) {
 		physics.heli.speed[3] = 1.0f;		
 	}
 #endif
-#if 1
+#if 0
 	if(physics.heli.pos[1] < 0.5f) {
 		float upVector[4];
 		
