@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		8DD9276008182E9D000E72F7 = {
+			children = (
+				8DD927A708182F56000E72F7,
+				8DD927A808182F56000E72F7,
+				8DD927A908182F56000E72F7,
+				8DD9278908182F03000E72F7,
+				8DD9278E08182F03000E72F7,
+				8DD9277208182EE0000E72F7,
+				8DD9277C08182F03000E72F7,
+				8DD9277B08182F03000E72F7,
+				8DD9278808182F03000E72F7,
+				8DD9279108182F03000E72F7,
+				8DD9279208182F03000E72F7,
+				8DD9279308182F03000E72F7,
+				8DD9276F08182EB3000E72F7,
+				8DD9277108182EB3000E72F7,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9276208182E9D000E72F7 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.1;
+				SYMROOT = ../../dist/Darwin;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		8DD9276308182E9D000E72F7 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		8DD9276408182E9D000E72F7 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				8DD9276208182E9D000E72F7,
+				8DD9276308182E9D000E72F7,
+			);
+			hasScannedForEncodings = 0;
+			isa = PBXProject;
+			mainGroup = 8DD9276008182E9D000E72F7;
+			productRefGroup = 8DD9276F08182EB3000E72F7;
+			projectDirPath = "";
+			targets = (
+				8DD9276D08182EB3000E72F7,
+			);
+		};
+		8DD9276A08182EB3000E72F7 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD9276B08182EB3000E72F7 = {
+			buildActionMask = 2147483647;
+			files = (
+				8DD9277808182EE0000E72F7,
+				8DD9277908182EE0000E72F7,
+				8DD9279408182F03000E72F7,
+				8DD9279708182F03000E72F7,
+				8DD9279908182F03000E72F7,
+				8DD9279A08182F03000E72F7,
+				8DD9279C08182F03000E72F7,
+				8DD9279D08182F03000E72F7,
+				8DD9279F08182F03000E72F7,
+				8DD927A008182F03000E72F7,
+				8DD927A108182F03000E72F7,
+				8DD927A308182F03000E72F7,
+				8DD927A408182F03000E72F7,
+				8DD927A508182F03000E72F7,
+				8DD927A608182F03000E72F7,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD9276C08182EB3000E72F7 = {
+			buildActionMask = 2147483647;
+			files = (
+				8DD927AA08182F56000E72F7,
+				8DD927AB08182F56000E72F7,
+				8DD927AC08182F56000E72F7,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD9276D08182EB3000E72F7 = {
+			buildPhases = (
+				8DD9276A08182EB3000E72F7,
+				8DD9276B08182EB3000E72F7,
+				8DD9276C08182EB3000E72F7,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = ../../src/include;
+				INFOPLIST_FILE = "CarbonCollective-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "-DDARWIN";
+				OTHER_LDFLAGS = "-framework Carbon";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = CarbonCollective;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = CarbonCollective;
+			productName = CarbonCollective;
+			productReference = 8DD9276E08182EB3000E72F7;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CarbonCollective</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.CarbonCollective</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.application";
+		};
+		8DD9276E08182EB3000E72F7 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			name = CarbonCollective.app;
+			path = build/CarbonCollective.app;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9276F08182EB3000E72F7 = {
+			children = (
+				8DD9276E08182EB3000E72F7,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9277108182EB3000E72F7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = "CarbonCollective-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9277208182EE0000E72F7 = {
+			children = (
+				8DD9277308182EE0000E72F7,
+				8DD9277508182EE0000E72F7,
+			);
+			isa = PBXGroup;
+			name = Darwin;
+			path = ../../src/arch/Darwin;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9277308182EE0000E72F7 = {
+			children = (
+				8DD9277408182EE0000E72F7,
+			);
+			isa = PBXGroup;
+			path = audio;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9277408182EE0000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = DarwinAudio.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9277508182EE0000E72F7 = {
+			children = (
+				8DD9277608182EE0000E72F7,
+			);
+			isa = PBXGroup;
+			path = hid;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9277608182EE0000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = DarwinHID.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9277808182EE0000E72F7 = {
+			fileRef = 8DD9277408182EE0000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9277908182EE0000E72F7 = {
+			fileRef = 8DD9277608182EE0000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9277B08182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = config.c;
+			path = ../../src/config.c;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9277C08182F03000E72F7 = {
+			children = (
+				8DD9277E08182F03000E72F7,
+				8DD9278108182F03000E72F7,
+				8DD9278508182F03000E72F7,
+			);
+			isa = PBXGroup;
+			name = Core;
+			path = ../../src/core;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9277E08182F03000E72F7 = {
+			children = (
+				8DD9278008182F03000E72F7,
+			);
+			isa = PBXGroup;
+			path = mixers;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278008182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = passthrough.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278108182F03000E72F7 = {
+			children = (
+				8DD9278308182F03000E72F7,
+				8DD9278408182F03000E72F7,
+			);
+			isa = PBXGroup;
+			path = model;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278308182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = Model.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278408182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = "xtr-modload.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278508182F03000E72F7 = {
+			children = (
+				8DD9278708182F03000E72F7,
+			);
+			isa = PBXGroup;
+			path = physics;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278708182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = physics.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278808182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = dynload.c;
+			path = ../../src/dynload.c;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9278908182F03000E72F7 = {
+			children = (
+				8DD9278B08182F03000E72F7,
+				8DD9278C08182F03000E72F7,
+				8DD9278D08182F03000E72F7,
+			);
+			isa = PBXGroup;
+			name = Graphics;
+			path = ../../src/graphics;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9278B08182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = "OpenGL-GUI.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278C08182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = "OpenGL-Texturemanager.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278D08182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = OpenGL.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9278E08182F03000E72F7 = {
+			children = (
+				8DD9279008182F03000E72F7,
+			);
+			isa = PBXGroup;
+			name = Input;
+			path = ../../src/input;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9279008182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = PPMdecode.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DD9279108182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = logger.c;
+			path = ../../src/logger.c;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9279208182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = main.c;
+			path = ../../src/main.c;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9279308182F03000E72F7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = maths.c;
+			path = ../../src/maths.c;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8DD9279408182F03000E72F7 = {
+			fileRef = 8DD9277B08182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9279708182F03000E72F7 = {
+			fileRef = 8DD9278008182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9279908182F03000E72F7 = {
+			fileRef = 8DD9278308182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9279A08182F03000E72F7 = {
+			fileRef = 8DD9278408182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9279C08182F03000E72F7 = {
+			fileRef = 8DD9278708182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9279D08182F03000E72F7 = {
+			fileRef = 8DD9278808182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD9279F08182F03000E72F7 = {
+			fileRef = 8DD9278B08182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927A008182F03000E72F7 = {
+			fileRef = 8DD9278C08182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927A108182F03000E72F7 = {
+			fileRef = 8DD9278D08182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927A308182F03000E72F7 = {
+			fileRef = 8DD9279008182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927A408182F03000E72F7 = {
+			fileRef = 8DD9279108182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927A508182F03000E72F7 = {
+			fileRef = 8DD9279208182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927A608182F03000E72F7 = {
+			fileRef = 8DD9279308182F03000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927A708182F56000E72F7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = /System/Library/Frameworks/CoreAudio.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DD927A808182F56000E72F7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = GLUT.framework;
+			path = /System/Library/Frameworks/GLUT.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DD927A908182F56000E72F7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = OpenGL.framework;
+			path = /System/Library/Frameworks/OpenGL.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DD927AA08182F56000E72F7 = {
+			fileRef = 8DD927A708182F56000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927AB08182F56000E72F7 = {
+			fileRef = 8DD927A808182F56000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DD927AC08182F56000E72F7 = {
+			fileRef = 8DD927A908182F56000E72F7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 8DD9276408182E9D000E72F7;
+}
