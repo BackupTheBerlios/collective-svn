@@ -296,9 +296,15 @@ void IsInDisplay(int x,int y) {
 	
 	if( (cross[0] < 0.0) && (cross[1] < 0.0) && (cross[2] < 0.0) && (cross[3] < 0.0)) {
 		int relx,rely;
+		float tmpx;
 		
-		relx = (float)(x - display.position[0][0]) * (512.0 / (float)(display.position[1][0] - display.position[0][0]));
-		rely = (float)(y - display.position[0][1]) * (256.0 / (float)(display.position[3][1] - display.position[0][1]));
+		tmpx = (-cross[3] / (-cross[1] + -cross[3])) * 512.0;
+		relx = tmpx;
+		tmpx = (-cross[0] / (-cross[2] + -cross[0])) * 256.0;
+		rely = tmpx;
+		
+		//relx = (float)(x - display.position[0][0]) * (512.0 / (float)(display.position[1][0] - display.position[0][0]));
+		//rely = (float)(y - display.position[0][1]) * (256.0 / (float)(display.position[3][1] - display.position[0][1]));
 		
 		GUI_Handle_Mouse(relx,rely);
 		//printf("Inside..(%ix%i)\n",relx,rely);
@@ -349,13 +355,13 @@ void Graphics_GUI_Initialize(void) {
 
 	display.activepage = GUI_MAIN_PAGE;
 
-#if 0
+#if 1
 	display.position[0][0] =  57; display.position[0][1] = 345;
 	display.position[1][0] = 477; display.position[1][1] = 585;
 	display.position[2][0] = 558; display.position[2][1] = 493;
 	display.position[3][0] = 134; display.position[3][1] = 231;
 #endif
-#if 1
+#if 0
 	display.position[0][0] =  60; display.position[0][1] = 250;
 	display.position[1][0] = 600; display.position[1][1] = 250;
 	display.position[2][0] = 600; display.position[2][1] =  50;

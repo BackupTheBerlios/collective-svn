@@ -142,15 +142,13 @@ int Texture_LoadFromMemory(void *texdata,uint8 format) {
 				*(uint8 *)((uint8*)(texture[majors].rawtexture) + texture[majors].width*y*bpp + x*bpp + 2) = tmpcol; // R = tmp
 				if(bpp == 4)
 					*(uint8 *)((uint8*)(texture[majors].rawtexture) + texture[majors].width*y*bpp + x*bpp + 3) = 255 - *(uint8 *)((uint8*)(texture[majors].rawtexture) + texture[majors].width*y*bpp + x*bpp + 2);
-					/*(
-					(float)*(uint8 *)((uint8*)(texture[majors].rawtexture) + texture[majors].width*y*bpp + x*bpp + 0) +
-					(float)*(uint8 *)((uint8*)(texture[majors].rawtexture) + texture[majors].width*y*bpp + x*bpp + 1) +
-					(float)*(uint8 *)((uint8*)(texture[majors].rawtexture) + texture[majors].width*y*bpp + x*bpp + 2) ) / 3.0;*/
 			} 
 		}
 
-		texture[majors].scaling[0] = texture[majors].width  / texture[majors].origwidth;
-		texture[majors].scaling[1] = texture[majors].height / texture[majors].origheight;
+		texture[majors].scaling[0] = (float)texture[majors].origwidth  / (float)texture[majors].width;
+		texture[majors].scaling[1] = (float)texture[majors].origheight / (float)texture[majors].height;
+
+		printf("Scaling: %f, %f\n",texture[majors].scaling[0],texture[majors].scaling[1]);
 
 		Texture_Rescale(majors);
 
