@@ -1,0 +1,13 @@
+modules.load = audio
+modules.load = input
+
+input.input  = audio
+input.decode = ppm
+
+#
+# Sample files can be found at http://194.150.212.52/sim/source/
+#
+model.appearance = models/Fury.mod
+scenery.texture = textures/MountCharlesHouse.tga
+gui.background = textures/GUIbackground.tga
+smoke.texture = textures/smoke.tga
