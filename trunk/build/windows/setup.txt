@@ -1,0 +1,43 @@
+Compiling Collective on Windows XP with Visual Studio.NET 2003
+
+1. Download GLUT. It can be found here : http://www.xmission.com/~nate/glut.html
+
+2. Create a directory calles lib under the directory where you checked collective out to.
+
+3. Extract all the GLUT files to a subdirectory called GLUT in the lib directory. Your directory structure should now look something like this:
+build/
+	windows/
+dist/
+doc/
+lib/
+	GLUT/
+models/
+src/
+	arch/
+		windows/
+		linux/
+		darwin/
+		irix/
+	core/
+		mixers/
+		model/
+		physics/
+	graphics/
+	include/
+	input/
+
+4. Solving the C2381 error:
+You need to modify the GLUT header files to get rid of this. It is caused by an incompatilibity with the windows.h file in VS.NET
+
+Find this bit of code:
+#if defined(_WIN32)
+# ifndef GLUT_BUILDING_LIB
+extern _CRTIMP void __cdecl exit(int);
+# endif
+
+Replace it with this:
+#if defined(_WIN32) 
+# ifndef GLUT_BUILDING_LIB /*extern _CRTIMP void __cdecl exit(int);*/ 
+_CRTIMP __declspec(noreturn) void __cdecl exit(int); 
+# endif
+
