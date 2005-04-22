@@ -56,7 +56,7 @@ void Physics_Initialize(void) {
 	Maths_VectorZero(prevVector);
 
 	physics.heli.pos[0] =  0.0f;
-	physics.heli.pos[1] =  8.0f;
+	physics.heli.pos[1] =  9.82f;
 	physics.heli.pos[2] = -4.0f;
 	physics.heli.pos[3] =  1.0f;
 
@@ -174,6 +174,7 @@ void Physics_Update(void) {
 		deltaTime   = (currentTime - lastTime) / 1000.0f;
 	}
 	lastTime    = currentTime;
+	//printf("dT: %f\n",lastTime);
 
 	input = Mixer_GetControls();
 
@@ -204,17 +205,18 @@ void Physics_Update(void) {
 	heliAccelerationVector[3] = 1.0f;
 
 	Maths_VectorMatrixMultiply(tmpVector,heliAccelerationVector,physics.heli.rotationMatrix);
-
+/*
 	aoalift = Physics_CalculateAoALift();
 	heliAirfoilLift[0] = 0.0;
 	heliAirfoilLift[1] = aoalift / (physics.heli.weight * 9.82f);
 	heliAirfoilLift[2] = 0.0;
 	heliAirfoilLift[3] = 1.0;
+*/
 
 	// 4th, add up all the acceleration-vectors
 	Maths_VectorZero(heliAccelerationVector);
 	Maths_VectorAdd(heliAccelerationVector,gravityAccelerationVector);
-	Maths_VectorAdd(heliAccelerationVector,heliAirfoilLift);
+	//Maths_VectorAdd(heliAccelerationVector,heliAirfoilLift);
 	Maths_VectorAdd(heliAccelerationVector,tmpVector);
 
 	// 5th, add the acceleration to the speed
@@ -232,9 +234,9 @@ void Physics_Update(void) {
 //	physics.heli.speed[2] = physics.heli.speed[2] / 1.01f;
 	
 	// 6th, add the speed to the position
-	Maths_VectorCopy(tmpVector,physics.heli.speed);
+	Maths_VectorCopy( tmpVector,physics.heli.speed);
 	Maths_VectorScale(tmpVector,deltaTime);
-	Maths_VectorAdd(physics.heli.pos,tmpVector);
+	Maths_VectorAdd(  physics.heli.pos,tmpVector);
 
 	// Crash reset (!!! hax)
 #if 0
@@ -260,9 +262,8 @@ void Physics_Update(void) {
 	if(physics.heli.pos[1] < 0.5f) {
 		float upVector[4];
 		
-		printf("HpY: %f\n",physics.heli.pos[1]);
+		//printf("HpY: %f\n",physics.heli.pos[1]);
 		physics.heli.pos[1] = 0.51;
-		
 
 		//physics.heli.speed[0] = 0.000001;
 		//physics.heli.speed[2] = 0.000001;
