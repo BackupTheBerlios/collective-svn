@@ -260,11 +260,14 @@ void Physics_Update(void) {
 	if(physics.heli.pos[1] < 0.5f) {
 		float upVector[4];
 		
-		physics.heli.pos[1] = 0.5001;
+		printf("HpY: %f\n",physics.heli.pos[1]);
+		physics.heli.pos[1] = 0.51;
+		
 
 		//physics.heli.speed[0] = 0.000001;
 		//physics.heli.speed[2] = 0.000001;
 		physics.heli.speed[0] = physics.heli.speed[0] * (1.0 - deltaTime);
+		physics.heli.speed[1] = physics.heli.speed[1] * (1.0 - deltaTime);
 		physics.heli.speed[2] = physics.heli.speed[2] * (1.0 - deltaTime);
 
 		upVector[0] = 0.0; upVector[1] = 1.0; upVector[2] = 0.0; upVector[3] = 1.0;
