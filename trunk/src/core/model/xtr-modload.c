@@ -269,7 +269,8 @@ static void LoadMOD(char *fname) {
 			fread(rawtexture,1,modeldata.texture[textureIndex].fsize,in);
 
 			modeldata.texture[textureIndex].texture = Texture_LoadFromMemory(rawtexture,TEXTURE_FORMAT_BMP);
-			for(utmp[0]=0;utmp[0]<1000;utmp[0]++);
+			//for(utmp[0]=0;utmp[0]<1000;utmp[0]++);
+			
 			free(rawtexture);
 			
 			//modeldata.texture[textureIndex].data = LoadBMP(in,&modeldata.texture[textureIndex]);
