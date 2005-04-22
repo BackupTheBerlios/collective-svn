@@ -245,7 +245,7 @@ static void Graphics_DisplaySimulator(void) {
 		glMultMatrixf((GLfloat *)g_shadowMatrix);
 		glTranslatef(physics.heli.pos[0],physics.heli.pos[1],physics.heli.pos[2]);
 		glMultMatrixf(physics.heli.finalMatrix);
-		glScalef(6.0,6.0,6.0);
+		glScalef(3.0,3.0,3.0);
 		glRotatef(-90.0,0.0,1.0,0.0);
 		glColor4f(0.0,0.0,0.0,0.4);
 		glCallList(aircraftlist[0]);
@@ -255,17 +255,10 @@ static void Graphics_DisplaySimulator(void) {
 	glEnable(GL_DEPTH_TEST);
 
 	/* Draw the helicopter */
-	//glPushMatrix();
-	glMatrixMode   ( GL_PROJECTION );  // Select The Projection Matrix
-	glLoadIdentity ( );                // Reset The Projection Matrix
-	gluPerspective ( 50, (float)win[0] / (float)win[1], 1.0,10000.0 );
-	glMatrixMode   ( GL_MODELVIEW );  // Select The Model View Matrix
-
-
 	glTranslatef(physics.heli.pos[0],physics.heli.pos[1],physics.heli.pos[2]);
 	glMultMatrixf(physics.heli.finalMatrix);
 
-	glScalef(6.0,6.0,6.0);
+	glScalef(3.0,3.0,3.0);
 	glRotatef(-90.0,0.0,1.0,0.0);
 	glEnable(GL_TEXTURE_2D);
 	glEnable(GL_CULL_FACE);
