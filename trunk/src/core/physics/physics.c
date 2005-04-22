@@ -237,7 +237,7 @@ void Physics_Update(void) {
 	Maths_VectorAdd(physics.heli.pos,tmpVector);
 
 	// Crash reset (!!! hax)
-#if 1
+#if 0
 	if(physics.heli.pos[1] < 0.5f) {
 		Maths_IdentityMatrix(physics.heli.rotationMatrix);
 		Maths_IdentityMatrix(physics.heli.finalMatrix);
@@ -256,22 +256,45 @@ void Physics_Update(void) {
 		physics.heli.speed[3] = 1.0f;		
 	}
 #endif
-#if 0
+#if 1
 	if(physics.heli.pos[1] < 0.5f) {
 		float upVector[4];
 		
-		physics.heli.speed[1] = 0.000001;
-		physics.heli.pos[1] = 0.5;
+		physics.heli.pos[1] = 0.5001;
 
-		physics.heli.speed[0] = 0.000001;
-		physics.heli.speed[2] = 0.000001;
+		//physics.heli.speed[0] = 0.000001;
+		//physics.heli.speed[2] = 0.000001;
+		physics.heli.speed[0] = physics.heli.speed[0] * (1.0 - deltaTime);
+		physics.heli.speed[2] = physics.heli.speed[2] * (1.0 - deltaTime);
 
 		upVector[0] = 0.0; upVector[1] = 1.0; upVector[2] = 0.0; upVector[3] = 1.0;
 
 		Maths_VectorMatrixMultiply(tmpVector,upVector,physics.heli.rotationMatrix);
 	
-		tmpVector[0] = -tmpVector[0] * deltaTime;
-		tmpVector[2] = tmpVector[2] * deltaTime;
+		if( tmpVector[1] < 0.8 ) { // Landed at too steep an angle to the world up-vector printf("CRASH!\n");
+			Maths_IdentityMatrix(physics.heli.rotationMatrix);
+			Maths_IdentityMatrix(physics.heli.finalMatrix);
+			
+			Maths_VectorZero(finalVector);
+			Maths_VectorZero(prevVector);
+			
+			physics.heli.pos[0] =  0.0f;
+			physics.heli.pos[1] =  8.0f;
+			physics.heli.pos[2] = -4.0f;
+			physics.heli.pos[3] =  1.0f;
+			
+			physics.heli.speed[0] = 0.0f;
+			physics.heli.speed[1] = 0.00001f;
+			physics.heli.speed[2] = 0.0f;
+			physics.heli.speed[3] = 1.0f;		
+		}
+
+		//tmpVector[0] = -tmpVector[0] * deltaTime;
+		//tmpVector[2] = tmpVector[2] * deltaTime;
+		tmpVector[0] = -tmpVector[0] * -physics.heli.speed[1] * deltaTime;
+		tmpVector[2] = tmpVector[2] * -physics.heli.speed[1] * deltaTime;
+
+		//physics.heli.speed[1] = 0.000001;
 	
 		Maths_EulerRotation(tmpMatrix,tmpVector[2],0.0f,0.0f);
 		Maths_MatrixMultiply(physics.heli.rotationMatrix,tmpMatrix);

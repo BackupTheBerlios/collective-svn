@@ -373,7 +373,7 @@ GLfloat LightPosition[] = {80.0f, 80.0f,80.0f, 1.0f };
 
 void Graphics_GUI_Initialize(void);
 
-#define MAX_PARTICLES 100
+#define MAX_PARTICLES 50
 static int smoketexture;
 
 struct {
@@ -406,9 +406,10 @@ static void Graphics_Particle_Update(uint32 deltaTimeMS) {
 	Maths_VectorMatrixMultiply(discVector,heliUpVector,physics.heli.rotationMatrix);
 		
 	deltaTime = (float)deltaTimeMS / 1000.0;
-	
+	//printf("dT: %f\n",deltaTime);
 	for(i=0;i<MAX_PARTICLES;i++) {
 		particle[i].life -= 1.0 / 60.0;
+		//particle[i].life -= deltaTime / 2.0;
 		//particle[i].life -= (float)deltaTime / 1000.0;
 
 		particle[i].scale[0] += deltaTime / 0.8;

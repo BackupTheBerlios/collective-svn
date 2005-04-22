@@ -148,7 +148,7 @@ int Texture_LoadFromMemory(void *texdata,uint8 format) {
 		texture[majors].scaling[0] = (float)texture[majors].origwidth  / (float)texture[majors].width;
 		texture[majors].scaling[1] = (float)texture[majors].origheight / (float)texture[majors].height;
 
-		printf("Scaling: %f, %f\n",texture[majors].scaling[0],texture[majors].scaling[1]);
+		//printf("Scaling: %f, %f\n",texture[majors].scaling[0],texture[majors].scaling[1]);
 
 		Texture_Rescale(majors);
 
