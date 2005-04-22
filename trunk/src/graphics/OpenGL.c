@@ -480,6 +480,18 @@ static void Graphics_Particle_Display(void) {
 					Texture_MapUV(1.0,0.0); glVertex3f( particle[i].pos[0] + particle[i].scale[0],particle[i].pos[1] - particle[i].scale[1],particle[i].pos[2] );
 					Texture_MapUV(0.0,0.0); glVertex3f( particle[i].pos[0] - particle[i].scale[0],particle[i].pos[1] - particle[i].scale[1],particle[i].pos[2] );
 					Texture_MapUV(0.0,1.0); glVertex3f( particle[i].pos[0] - particle[i].scale[0],particle[i].pos[1] + particle[i].scale[1],particle[i].pos[2] );
+
+					Texture_MapUV(1.0,1.0); glVertex3f( particle[i].pos[0],particle[i].pos[1] + particle[i].scale[1],particle[i].pos[2] + particle[i].scale[0]);
+					Texture_MapUV(1.0,0.0); glVertex3f( particle[i].pos[0],particle[i].pos[1] - particle[i].scale[1],particle[i].pos[2] + particle[i].scale[0]);
+					Texture_MapUV(0.0,0.0); glVertex3f( particle[i].pos[0],particle[i].pos[1] - particle[i].scale[1],particle[i].pos[2] - particle[i].scale[0]);
+					Texture_MapUV(0.0,1.0); glVertex3f( particle[i].pos[0],particle[i].pos[1] + particle[i].scale[1],particle[i].pos[2] - particle[i].scale[0]);
+
+#endif
+#if 0
+					Texture_MapUV(1.0,1.0); glVertex3f( particle[i].pos[0] + particle[i].scale[0],particle[i].pos[1] + particle[i].scale[1],particle[i].pos[2] );
+					Texture_MapUV(1.0,0.0); glVertex3f( particle[i].pos[0] + particle[i].scale[0],particle[i].pos[1] - particle[i].scale[1],particle[i].pos[2] );
+					Texture_MapUV(0.0,0.0); glVertex3f( particle[i].pos[0] - particle[i].scale[0],particle[i].pos[1] - particle[i].scale[1],particle[i].pos[2] );
+					Texture_MapUV(0.0,1.0); glVertex3f( particle[i].pos[0] - particle[i].scale[0],particle[i].pos[1] + particle[i].scale[1],particle[i].pos[2] );
 #endif
 #if 0
 					Texture_MapUV(1.0,1.0); glVertex3f( particle[i].pos[0] + (1.0-particle[i].life),particle[i].pos[1] + (1.0-particle[i].life),particle[i].pos[2] );
