@@ -1,0 +1,14 @@
+* Abstract the texture-loader
+  Texture_LoadXXX  (loads and decodes)
+    Graphics_LoadTexture (Rescales and formats)
+	
+* Test input-system
+
+* Add controls (physics+input)
+
+* BACKPORT
+
+* Improve / Restore .mod support
+
+* Add shadows to OpenGL graphics
+* Add particle-system to OpenGL graphics

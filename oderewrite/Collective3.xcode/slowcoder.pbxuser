@@ -1,0 +1,1532 @@
+// !$*UTF8*$!
+{
+	8DC6C59D081FB7D000401062 = {
+		fRef = 8DDE379E081CAD97009102F2;
+		isa = PBXTextBookmark;
+		name = "physics.cpp: 49";
+		rLen = 0;
+		rLoc = 1130;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 471;
+	};
+	8DC6C59E081FB7D000401062 = {
+		fRef = 8DDE3832081CB30A009102F2;
+		isa = PBXTextBookmark;
+		name = "graphics.c: 77";
+		rLen = 0;
+		rLoc = 1634;
+		rType = 0;
+		vrLen = 1684;
+		vrLoc = 1305;
+	};
+	8DC6C59F081FB7D000401062 = {
+		fRef = 8DDE379E081CAD97009102F2;
+		isa = PBXTextBookmark;
+		name = "physics.cpp: 49";
+		rLen = 0;
+		rLoc = 1130;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 471;
+	};
+	8DC6C5A0081FB7D000401062 = {
+		fRef = 8DDE3832081CB30A009102F2;
+		isa = PBXTextBookmark;
+		name = "graphics.c: 69";
+		rLen = 0;
+		rLoc = 1486;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 1305;
+	};
+	8DDE3761081CAA50009102F2 = {
+		activeBuildStyle = 8DDE375F081CAA50009102F2;
+		activeExecutable = 8DDE376D081CAA6B009102F2;
+		activeTarget = 8DDE376A081CAA6B009102F2;
+		addToTargets = (
+			8DDE376A081CAA6B009102F2,
+		);
+		codeSenseManager = 8DDE3763081CAA50009102F2;
+		executables = (
+			8DDE376D081CAA6B009102F2,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					511,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					331,
+					20,
+					48.1626,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 136295740;
+			PBXWorkspaceStateSaveDate = 136295740;
+		};
+		perUserProjectItems = {
+			8DC6C59D081FB7D000401062 = 8DC6C59D081FB7D000401062;
+			8DC6C59E081FB7D000401062 = 8DC6C59E081FB7D000401062;
+			8DC6C59F081FB7D000401062 = 8DC6C59F081FB7D000401062;
+			8DC6C5A0081FB7D000401062 = 8DC6C5A0081FB7D000401062;
+			8DDE37F6081CB2F3009102F2 = 8DDE37F6081CB2F3009102F2;
+			8DDE37F8081CB2F3009102F2 = 8DDE37F8081CB2F3009102F2;
+			8DDE37F9081CB2F3009102F2 = 8DDE37F9081CB2F3009102F2;
+			8DDE37FC081CB2F3009102F2 = 8DDE37FC081CB2F3009102F2;
+			8DDE37FE081CB2F3009102F2 = 8DDE37FE081CB2F3009102F2;
+			8DDE37FF081CB2F3009102F2 = 8DDE37FF081CB2F3009102F2;
+			8DDE3802081CB2F3009102F2 = 8DDE3802081CB2F3009102F2;
+			8DDE3806081CB2F3009102F2 = 8DDE3806081CB2F3009102F2;
+			8DDE3807081CB2F3009102F2 = 8DDE3807081CB2F3009102F2;
+			8DDE3808081CB2F3009102F2 = 8DDE3808081CB2F3009102F2;
+			8DDE380B081CB2F3009102F2 = 8DDE380B081CB2F3009102F2;
+			8DDE380C081CB2F3009102F2 = 8DDE380C081CB2F3009102F2;
+			8DDE3811081CB2F3009102F2 = 8DDE3811081CB2F3009102F2;
+			8DDE3815081CB2F3009102F2 = 8DDE3815081CB2F3009102F2;
+			8DDE3816081CB2F3009102F2 = 8DDE3816081CB2F3009102F2;
+			8DDE3818081CB2F3009102F2 = 8DDE3818081CB2F3009102F2;
+			8DDE381B081CB2F3009102F2 = 8DDE381B081CB2F3009102F2;
+			8DDE381E081CB2F3009102F2 = 8DDE381E081CB2F3009102F2;
+			8DDE381F081CB2F3009102F2 = 8DDE381F081CB2F3009102F2;
+			8DDE3821081CB2F3009102F2 = 8DDE3821081CB2F3009102F2;
+			8DDE3822081CB2F3009102F2 = 8DDE3822081CB2F3009102F2;
+			8DDE384C081CB3A5009102F2 = 8DDE384C081CB3A5009102F2;
+			8DDE3855081CB3A5009102F2 = 8DDE3855081CB3A5009102F2;
+			8DDE3856081CB3A5009102F2 = 8DDE3856081CB3A5009102F2;
+			8DDE3858081CB3A5009102F2 = 8DDE3858081CB3A5009102F2;
+			8DDE38FA081CB855009102F2 = 8DDE38FA081CB855009102F2;
+			8DDE38FC081CB855009102F2 = 8DDE38FC081CB855009102F2;
+			8DDE3900081CB855009102F2 = 8DDE3900081CB855009102F2;
+			8DDE3910081CB855009102F2 = 8DDE3910081CB855009102F2;
+			8DDE3911081CB855009102F2 = 8DDE3911081CB855009102F2;
+			8DDE3912081CB855009102F2 = 8DDE3912081CB855009102F2;
+			8DDE3918081CB855009102F2 = 8DDE3918081CB855009102F2;
+			8DDE3927081CB855009102F2 = 8DDE3927081CB855009102F2;
+			8DDE395A081CBD3E009102F2 = 8DDE395A081CBD3E009102F2;
+			8DDE395D081CBD3E009102F2 = 8DDE395D081CBD3E009102F2;
+			8DDE3962081CBD3E009102F2 = 8DDE3962081CBD3E009102F2;
+			8DDE3964081CBD3E009102F2 = 8DDE3964081CBD3E009102F2;
+			8DDE3965081CBD3E009102F2 = 8DDE3965081CBD3E009102F2;
+			8DDE3966081CBD3E009102F2 = 8DDE3966081CBD3E009102F2;
+			8DDE39AB081CC031009102F2 = 8DDE39AB081CC031009102F2;
+			8DDE39AE081CC031009102F2 = 8DDE39AE081CC031009102F2;
+			8DDE3A94081CCC3A009102F2 = 8DDE3A94081CCC3A009102F2;
+			8DDE3BE4081D1E00009102F2 = 8DDE3BE4081D1E00009102F2;
+			8DDE3BF5081D1E72009102F2 = 8DDE3BF5081D1E72009102F2;
+			8DDE3C1C081D1FB3009102F2 = 8DDE3C1C081D1FB3009102F2;
+			8DDE3C51081D2123009102F2 = 8DDE3C51081D2123009102F2;
+			8DDE3C97081D42A2009102F2 = 8DDE3C97081D42A2009102F2;
+			8DDE3C99081D42A2009102F2 = 8DDE3C99081D42A2009102F2;
+			8DDE3CA7081D4387009102F2 = 8DDE3CA7081D4387009102F2;
+			8DDE3CC3081D4587009102F2 = 8DDE3CC3081D4587009102F2;
+			8DDE3CC4081D4587009102F2 = 8DDE3CC4081D4587009102F2;
+			8DDE3CC5081D4587009102F2 = 8DDE3CC5081D4587009102F2;
+			8DDE3CC8081D4587009102F2 = 8DDE3CC8081D4587009102F2;
+			8DDE3CC9081D4587009102F2 = 8DDE3CC9081D4587009102F2;
+			8DDE3CEB081D461B009102F2 = 8DDE3CEB081D461B009102F2;
+			8DDE3D20081D4880009102F2 = 8DDE3D20081D4880009102F2;
+		};
+		sourceControlManager = 8DDE3762081CAA50009102F2;
+		userBuildSettings = {
+		};
+	};
+	8DDE3762081CAA50009102F2 = {
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	8DDE3763081CAA50009102F2 = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+	};
+	8DDE376A081CAA6B009102F2 = {
+		activeExec = 0;
+		executables = (
+			8DDE376D081CAA6B009102F2,
+		);
+	};
+	8DDE376D081CAA6B009102F2 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		cppStopOnCatchEnabled = 0;
+		cppStopOnThrowEnabled = 0;
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		isa = PBXExecutable;
+		libgmallocEnabled = 0;
+		name = CarbonCollective3;
+		savedGlobals = {
+		};
+		shlibInfoDictList_v2 = (
+			{
+				level = 0;
+				path = /usr/lib/system/libmathCommon.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libSystem.B.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libicucore.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libauto.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libobjc.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libz.1.2.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Security.framework/Versions/A/Security;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/WebServicesCore.framework/Versions/A/WebServicesCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libbsm.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libcrypto.0.9.7.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libcups.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/FindByContent.framework/Versions/A/FindByContent;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRaw.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libmx.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libiconv.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libxml2.2.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HTMLRendering.framework/Versions/A/HTMLRendering;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework/Versions/A/NavigationServices;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libsqlite3.0.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/GLUT.framework/Versions/A/GLUT;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /usr/lib/libgcc_s.1.0.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = "/usr/lib/libstdc++.6.0.3.dylib";
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /Users/slowcoder/src/Collective3/build/CarbonCollective3.app/Contents/MacOS/CarbonCollective3;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLEngine.bundle/GLEngine;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Extensions/ATIRadeon9700GLDriver.bundle/Contents/MacOS/ATIRadeon9700GLDriver;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLSystem.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLDriver.bundle/GLDriver;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLRendererFloat.bundle/GLRendererFloat;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLRasterARGB8888D32.bundle/GLRasterARGB8888D32;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGATS.A.dylib;
+				whenToLoad = 0;
+			},
+			{
+				level = 0;
+				path = /System/Library/Components/DictionaryService.component/Contents/MacOS/DictionaryService;
+				whenToLoad = 0;
+			},
+		);
+		sourceDirectories = (
+		);
+	};
+	8DDE376F081CAA88009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 742}}";
+			sepNavSelRange = "{520, 0}";
+			sepNavVisRect = "{{0, 167}, {709, 561}}";
+			sepNavWindowFrame = "{{19, 18}, {739, 809}}";
+		};
+	};
+	8DDE3776081CAAFC009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 1204}}";
+			sepNavSelRange = "{1534, 0}";
+			sepNavVisRect = "{{0, 615}, {709, 561}}";
+			sepNavWindowFrame = "{{305, 13}, {739, 809}}";
+		};
+	};
+	8DDE379D081CAD97009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE379E081CAD97009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 1834}}";
+			sepNavSelRange = "{1130, 0}";
+			sepNavVisRect = "{{0, 346}, {709, 561}}";
+		};
+	};
+	8DDE37A6081CADCB009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{434, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE37A7081CADCB009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 700}}";
+			sepNavSelRange = "{405, 101}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE37D4081CB013009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE37D5081CB013009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1436, 2982}}";
+			sepNavSelRange = "{4460, 0}";
+			sepNavVisRect = "{{0, 1918}, {709, 561}}";
+		};
+	};
+	8DDE37E5081CB279009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 630}}";
+			sepNavSelRange = "{1700, 0}";
+			sepNavVisRect = "{{0, 56}, {709, 561}}";
+		};
+	};
+	8DDE37E6081CB279009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 770}}";
+			sepNavSelRange = "{1890, 0}";
+			sepNavVisRect = "{{0, 209}, {709, 561}}";
+		};
+	};
+	8DDE37F6081CB2F3009102F2 = {
+		fRef = 8DDE37F7081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 5096;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1709;
+		vrLoc = 0;
+	};
+	8DDE37F7081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = DarwinAudio.c;
+		path = /Users/slowcoder/src/Collective/src/arch/Darwin/audio/DarwinAudio.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE37F8081CB2F3009102F2 = {
+		fRef = 8DDE37D4081CB013009102F2;
+		isa = PBXTextBookmark;
+		name = "darwin.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	8DDE37F9081CB2F3009102F2 = {
+		fRef = 8DDE37FA081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 86";
+		rLen = 1168;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 2324;
+	};
+	8DDE37FA081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = PPMdecode.c;
+		path = /Users/slowcoder/src/Collective/src/input/PPMdecode.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE37FC081CB2F3009102F2 = {
+		fRef = 8DDE37FD081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 1890;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1614;
+		vrLoc = 0;
+	};
+	8DDE37FD081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = logger.c;
+		path = /Users/slowcoder/src/Collective/src/logger.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE37FE081CB2F3009102F2 = {
+		fRef = 8DDE37E6081CB279009102F2;
+		isa = PBXTextBookmark;
+		name = "logger.c: 55";
+		rLen = 0;
+		rLoc = 1890;
+		rType = 0;
+		vrLen = 1235;
+		vrLoc = 655;
+	};
+	8DDE37FF081CB2F3009102F2 = {
+		fRef = 8DDE3800081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 1700;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 0;
+	};
+	8DDE3800081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = logger.h;
+		path = /Users/slowcoder/src/Collective/src/include/logger.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3802081CB2F3009102F2 = {
+		fRef = 8DDE37E5081CB279009102F2;
+		isa = PBXTextBookmark;
+		name = "logger.h: 45";
+		rLen = 0;
+		rLoc = 1700;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 68;
+	};
+	8DDE3806081CB2F3009102F2 = {
+		fRef = 8DDE376F081CAA88009102F2;
+		isa = PBXTextBookmark;
+		name = "main.c: 35";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 14;
+	};
+	8DDE3807081CB2F3009102F2 = {
+		fRef = 8DDE3776081CAAFC009102F2;
+		isa = PBXTextBookmark;
+		name = "collective.h: 34";
+		rLen = 0;
+		rLoc = 1063;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 0;
+	};
+	8DDE3808081CB2F3009102F2 = {
+		fRef = 8DDE379D081CAD97009102F2;
+		isa = PBXTextBookmark;
+		name = "physics.h: 12";
+		rLen = 0;
+		rLoc = 209;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 0;
+	};
+	8DDE380B081CB2F3009102F2 = {
+		fRef = 8DDE37A6081CADCB009102F2;
+		isa = PBXTextBookmark;
+		name = "input.h: input_device";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 0;
+	};
+	8DDE380C081CB2F3009102F2 = {
+		fRef = 8DDE37A7081CADCB009102F2;
+		isa = PBXTextBookmark;
+		name = "input.c: 21";
+		rLen = 0;
+		rLoc = 401;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 0;
+	};
+	8DDE3811081CB2F3009102F2 = {
+		fRef = 8DDE379E081CAD97009102F2;
+		isa = PBXTextBookmark;
+		name = "physics.cpp: 10";
+		rLen = 0;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 194;
+		vrLoc = 0;
+	};
+	8DDE3815081CB2F3009102F2 = {
+		fRef = 8DDE37D4081CB013009102F2;
+		isa = PBXTextBookmark;
+		name = "darwin.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	8DDE3816081CB2F3009102F2 = {
+		fRef = 8DDE3817081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 5096;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1709;
+		vrLoc = 0;
+	};
+	8DDE3817081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = DarwinAudio.c;
+		path = /Users/slowcoder/src/Collective/src/arch/Darwin/audio/DarwinAudio.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3818081CB2F3009102F2 = {
+		fRef = 8DDE37D5081CB013009102F2;
+		isa = PBXTextBookmark;
+		name = "darwin-audio.c: 32";
+		rLen = 0;
+		rLoc = 1504;
+		rType = 0;
+		vrLen = 1368;
+		vrLoc = 1336;
+	};
+	8DDE381B081CB2F3009102F2 = {
+		fRef = 8DDE381C081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 86";
+		rLen = 1168;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 2324;
+	};
+	8DDE381C081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = PPMdecode.c;
+		path = /Users/slowcoder/src/Collective/src/input/PPMdecode.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE381E081CB2F3009102F2 = {
+		fRef = 8DDE37E5081CB279009102F2;
+		isa = PBXTextBookmark;
+		name = "logger.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	8DDE381F081CB2F3009102F2 = {
+		fRef = 8DDE3820081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 1890;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1614;
+		vrLoc = 0;
+	};
+	8DDE3820081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = logger.c;
+		path = /Users/slowcoder/src/Collective/src/logger.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3821081CB2F3009102F2 = {
+		fRef = 8DDE37E6081CB279009102F2;
+		isa = PBXTextBookmark;
+		name = "logger.c: 55";
+		rLen = 0;
+		rLoc = 1890;
+		rType = 0;
+		vrLen = 1235;
+		vrLoc = 655;
+	};
+	8DDE3822081CB2F3009102F2 = {
+		fRef = 8DDE3823081CB2F3009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 1700;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 0;
+	};
+	8DDE3823081CB2F3009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = logger.h;
+		path = /Users/slowcoder/src/Collective/src/include/logger.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3831081CB30A009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{182, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE3832081CB30A009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 3066}}";
+			sepNavSelRange = "{1486, 0}";
+			sepNavVisRect = "{{0, 868}, {709, 561}}";
+		};
+	};
+	8DDE384C081CB3A5009102F2 = {
+		fRef = 8DDE384D081CB3A5009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 2820;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 0;
+	};
+	8DDE384D081CB3A5009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = graphics.c;
+		path = /Users/slowcoder/src/Collective2/graphics.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3855081CB3A5009102F2 = {
+		fRef = 8DDE3831081CB30A009102F2;
+		isa = PBXTextBookmark;
+		name = "graphics.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	8DDE3856081CB3A5009102F2 = {
+		fRef = 8DDE3857081CB3A5009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 2820;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 0;
+	};
+	8DDE3857081CB3A5009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = graphics.c;
+		path = /Users/slowcoder/src/Collective2/graphics.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3858081CB3A5009102F2 = {
+		fRef = 8DDE3832081CB30A009102F2;
+		isa = PBXTextBookmark;
+		name = "graphics.c: 123";
+		rLen = 0;
+		rLoc = 7509;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 1963;
+	};
+	8DDE38A9081CB567009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{240, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE38AA081CB567009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {536, 518}}";
+			sepNavSelRange = "{279, 55}";
+			sepNavVisRect = "{{0, 223}, {459, 186}}";
+			sepNavWindowFrame = "{{19, 18}, {739, 809}}";
+		};
+	};
+	8DDE38FA081CB855009102F2 = {
+		fRef = 8DDE38FB081CB855009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 14";
+		rLen = 1826;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 1457;
+	};
+	8DDE38FB081CB855009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = object.c;
+		path = /Users/slowcoder/src/Collective2/object.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE38FC081CB855009102F2 = {
+		fRef = 8DDE38FD081CB855009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 15";
+		rLen = 82;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 837;
+		vrLoc = 0;
+	};
+	8DDE38FD081CB855009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = misc2.cpp;
+		path = /Users/slowcoder/src/Collective2/misc2.cpp;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3900081CB855009102F2 = {
+		fRef = 8DDE3901081CB855009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 70";
+		rLen = 219;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 933;
+	};
+	8DDE3901081CB855009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = main.h;
+		path = /Users/slowcoder/src/Collective2/main.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3910081CB855009102F2 = {
+		fRef = 8DDE38A9081CB567009102F2;
+		isa = PBXTextBookmark;
+		name = "objload.h: 10";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	8DDE3911081CB855009102F2 = {
+		fRef = 8DDE38AA081CB567009102F2;
+		isa = PBXTextBookmark;
+		name = "objload.c: Object_LoadObject";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 0;
+	};
+	8DDE3912081CB855009102F2 = {
+		fRef = 8DDE3913081CB855009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 14";
+		rLen = 1826;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 1457;
+	};
+	8DDE3913081CB855009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = object.c;
+		path = /Users/slowcoder/src/Collective2/object.c;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3918081CB855009102F2 = {
+		fRef = 8DDE3919081CB855009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 19";
+		rLen = 3013;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 2154;
+	};
+	8DDE3919081CB855009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = misc2.cpp;
+		path = /Users/slowcoder/src/Collective2/misc2.cpp;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3927081CB855009102F2 = {
+		fRef = 8DDE3928081CB855009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 70";
+		rLen = 219;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 933;
+	};
+	8DDE3928081CB855009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = main.h;
+		path = /Users/slowcoder/src/Collective2/main.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3930081CB87C009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1940, 7714}}";
+			sepNavSelRange = "{2246, 0}";
+			sepNavVisRect = "{{0, 687}, {709, 561}}";
+		};
+	};
+	8DDE393C081CB9DD009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{259, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE393D081CB9DD009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 2422}}";
+			sepNavSelRange = "{5182, 0}";
+			sepNavVisRect = "{{0, 1805}, {709, 561}}";
+		};
+	};
+	8DDE395A081CBD3E009102F2 = {
+		fRef = 8DDE395B081CBD3E009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 15";
+		rLen = 4809;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 1528;
+		vrLoc = 3524;
+	};
+	8DDE395B081CBD3E009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "test03-modelload.c";
+		path = "/Users/slowcoder/src/ODE/gfx/test03-modelload.c";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE395D081CBD3E009102F2 = {
+		fRef = 8DDE38A9081CB567009102F2;
+		isa = PBXTextBookmark;
+		name = "objload.h: Object_LoadObject";
+		rLen = 0;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	8DDE3962081CBD3E009102F2 = {
+		fRef = 8DDE3930081CB87C009102F2;
+		isa = PBXTextBookmark;
+		name = "objload-mod.c: 74";
+		rLen = 0;
+		rLoc = 6255;
+		rType = 0;
+		vrLen = 1966;
+		vrLoc = 2082;
+	};
+	8DDE3964081CBD3E009102F2 = {
+		fRef = 8DDE393C081CB9DD009102F2;
+		isa = PBXTextBookmark;
+		name = "objload-obj.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 150;
+		vrLoc = 0;
+	};
+	8DDE3965081CBD3E009102F2 = {
+		fRef = 8DDE393D081CB9DD009102F2;
+		isa = PBXTextBookmark;
+		name = "objload-obj.c: 12";
+		rLen = 0;
+		rLoc = 5432;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	8DDE3966081CBD3E009102F2 = {
+		fRef = 8DDE3967081CBD3E009102F2;
+		isa = PBXTextBookmark;
+		name = "(null): 15";
+		rLen = 4809;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 1528;
+		vrLoc = 3524;
+	};
+	8DDE3967081CBD3E009102F2 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "test03-modelload.c";
+		path = "/Users/slowcoder/src/ODE/gfx/test03-modelload.c";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	8DDE3976081CBDA5009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1280, 4452}}";
+			sepNavSelRange = "{1541, 0}";
+			sepNavVisRect = "{{0, 318}, {709, 561}}";
+		};
+	};
+	8DDE397A081CBE40009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{506, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE39AB081CC031009102F2 = {
+		fRef = 8DDE3976081CBDA5009102F2;
+		isa = PBXTextBookmark;
+		name = "texturemanager.c: 37";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 10763;
+	};
+	8DDE39AE081CC031009102F2 = {
+		fRef = 8DDE397A081CBE40009102F2;
+		isa = PBXTextBookmark;
+		name = "} texture[MAX_TEXTURES];";
+		rLen = 13;
+		rLoc = 377;
+		rType = 0;
+		vrLen = 384;
+		vrLoc = 0;
+	};
+	8DDE3A94081CCC3A009102F2 = {
+		fRef = 8DDE379D081CAD97009102F2;
+		isa = PBXTextBookmark;
+		name = "physics.h: 12";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	8DDE3BE4081D1E00009102F2 = {
+		fRef = 8DDE397A081CBE40009102F2;
+		isa = PBXTextBookmark;
+		name = "texturemanager.h: 25";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 0;
+	};
+	8DDE3BF5081D1E72009102F2 = {
+		fRef = 8DDE3976081CBDA5009102F2;
+		isa = PBXTextBookmark;
+		name = "texturemanager.c: 40";
+		rLen = 0;
+		rLoc = 1541;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 1241;
+	};
+	8DDE3C1C081D1FB3009102F2 = {
+		fRef = 8DDE393C081CB9DD009102F2;
+		isa = PBXTextBookmark;
+		name = "objload-obj.h: 15";
+		rLen = 0;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	8DDE3C51081D2123009102F2 = {
+		fRef = 8DDE3831081CB30A009102F2;
+		isa = PBXTextBookmark;
+		name = "graphics.h: Graphics_DrawObjects";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	8DDE3C87081D255C009102F2 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 561}}";
+			sepNavSelRange = "{291, 0}";
+			sepNavVisRect = "{{0, 0}, {709, 561}}";
+		};
+	};
+	8DDE3C97081D42A2009102F2 = {
+		fRef = 8DDE3C87081D255C009102F2;
+		isa = PBXTextBookmark;
+		name = "TODO.txt: 14";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	8DDE3C99081D42A2009102F2 = {
+		fRef = 8DDE3C87081D255C009102F2;
+		isa = PBXTextBookmark;
+		name = "TODO.txt: 14";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	8DDE3CA7081D4387009102F2 = {
+		fRef = 8DDE376F081CAA88009102F2;
+		isa = PBXTextBookmark;
+		name = "main.c: 28";
+		rLen = 0;
+		rLoc = 520;
+		rType = 0;
+		vrLen = 1096;
+		vrLoc = 188;
+	};
+	8DDE3CC3081D4587009102F2 = {
+		fRef = 8DDE393D081CB9DD009102F2;
+		isa = PBXTextBookmark;
+		name = "objload-obj.c: 162";
+		rLen = 0;
+		rLoc = 5182;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 3891;
+	};
+	8DDE3CC4081D4587009102F2 = {
+		fRef = 8DDE37A7081CADCB009102F2;
+		isa = PBXTextBookmark;
+		name = "input.c: Input_GetNumDevices";
+		rLen = 101;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 0;
+	};
+	8DDE3CC5081D4587009102F2 = {
+		fRef = 8DDE37A6081CADCB009102F2;
+		isa = PBXTextBookmark;
+		name = "input.h: Input_Initialize";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 0;
+	};
+	8DDE3CC8081D4587009102F2 = {
+		fRef = 8DDE3776081CAAFC009102F2;
+		isa = PBXTextBookmark;
+		name = "collective.h: Darwin_Audio_GetInputs";
+		rLen = 0;
+		rLoc = 1534;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 930;
+	};
+	8DDE3CC9081D4587009102F2 = {
+		fRef = 8DDE38AA081CB567009102F2;
+		isa = PBXTextBookmark;
+		name = "objload.c: 19";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 0;
+	};
+	8DDE3CEB081D461B009102F2 = {
+		fRef = 8DDE3930081CB87C009102F2;
+		isa = PBXTextBookmark;
+		name = "objload-mod.c: 64";
+		rLen = 0;
+		rLoc = 2246;
+		rType = 0;
+		vrLen = 1633;
+		vrLoc = 1815;
+	};
+	8DDE3D20081D4880009102F2 = {
+		fRef = 8DDE37D5081CB013009102F2;
+		isa = PBXTextBookmark;
+		name = "darwin-audio.c: 113";
+		rLen = 0;
+		rLoc = 4460;
+		rType = 0;
+		vrLen = 1233;
+		vrLoc = 4943;
+	};
+}

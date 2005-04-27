@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		8DDE375D081CAA4F009102F2 = {
+			children = (
+				8DDE3C87081D255C009102F2,
+				8DDE387E081CB4BC009102F2,
+				8DDE3789081CAC70009102F2,
+				8DDE376C081CAA6B009102F2,
+				8DDE376E081CAA6B009102F2,
+				8DDE376F081CAA88009102F2,
+				8DDE3776081CAAFC009102F2,
+				8DDE379D081CAD97009102F2,
+				8DDE379E081CAD97009102F2,
+				8DDE37A6081CADCB009102F2,
+				8DDE37A7081CADCB009102F2,
+				8DDE37E5081CB279009102F2,
+				8DDE37E6081CB279009102F2,
+				8DDE3831081CB30A009102F2,
+				8DDE3832081CB30A009102F2,
+				8DDE38A9081CB567009102F2,
+				8DDE38AA081CB567009102F2,
+				8DDE3930081CB87C009102F2,
+				8DDE393C081CB9DD009102F2,
+				8DDE393D081CB9DD009102F2,
+				8DDE3976081CBDA5009102F2,
+				8DDE397A081CBE40009102F2,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE375F081CAA50009102F2 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		8DDE3760081CAA50009102F2 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		8DDE3761081CAA50009102F2 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				8DDE375F081CAA50009102F2,
+				8DDE3760081CAA50009102F2,
+			);
+			hasScannedForEncodings = 0;
+			isa = PBXProject;
+			mainGroup = 8DDE375D081CAA4F009102F2;
+			productRefGroup = 8DDE376C081CAA6B009102F2;
+			projectDirPath = "";
+			targets = (
+				8DDE376A081CAA6B009102F2,
+			);
+		};
+		8DDE3767081CAA6B009102F2 = {
+			buildActionMask = 2147483647;
+			files = (
+				8DDE3C88081D255C009102F2,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDE3768081CAA6B009102F2 = {
+			buildActionMask = 2147483647;
+			files = (
+				8DDE3770081CAA88009102F2,
+				8DDE379F081CAD97009102F2,
+				8DDE37A8081CADCB009102F2,
+				8DDE37D6081CB013009102F2,
+				8DDE37E7081CB279009102F2,
+				8DDE3833081CB30A009102F2,
+				8DDE38AB081CB567009102F2,
+				8DDE393E081CB9DD009102F2,
+				8DDE3977081CBDA5009102F2,
+				8DDE3A80081CC9E3009102F2,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDE3769081CAA6B009102F2 = {
+			buildActionMask = 2147483647;
+			files = (
+				8DDE3883081CB4D2009102F2,
+				8DDE3884081CB4D2009102F2,
+				8DDE3885081CB4D2009102F2,
+				8DDE3886081CB4D2009102F2,
+				8DDE3891081CB500009102F2,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDE376A081CAA6B009102F2 = {
+			buildPhases = (
+				8DDE3767081CAA6B009102F2,
+				8DDE3768081CAA6B009102F2,
+				8DDE3769081CAA6B009102F2,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = include/;
+				INFOPLIST_FILE = "CarbonCollective3-Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = /Users/slowcoder/src/Collective3;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Carbon";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = CarbonCollective3;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = CarbonCollective3;
+			productName = CarbonCollective3;
+			productReference = 8DDE376B081CAA6B009102F2;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CarbonCollective3</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.CarbonCollective3</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.application";
+		};
+		8DDE376B081CAA6B009102F2 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = CarbonCollective3.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8DDE376C081CAA6B009102F2 = {
+			children = (
+				8DDE376B081CAA6B009102F2,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE376E081CAA6B009102F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = "CarbonCollective3-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE376F081CAA88009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = main.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3770081CAA88009102F2 = {
+			fileRef = 8DDE376F081CAA88009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3776081CAAFC009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = collective.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3789081CAC70009102F2 = {
+			children = (
+				8DDE378A081CAC76009102F2,
+			);
+			isa = PBXGroup;
+			name = Architecture;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE378A081CAC76009102F2 = {
+			children = (
+				8DDE37D4081CB013009102F2,
+				8DDE37D5081CB013009102F2,
+			);
+			isa = PBXGroup;
+			name = Darwin;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE379D081CAD97009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = physics.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE379E081CAD97009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = physics.cpp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE379F081CAD97009102F2 = {
+			fileRef = 8DDE379E081CAD97009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE37A6081CADCB009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = input.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE37A7081CADCB009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = input.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE37A8081CADCB009102F2 = {
+			fileRef = 8DDE37A7081CADCB009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE37D4081CB013009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = darwin.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE37D5081CB013009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = "darwin-audio.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE37D6081CB013009102F2 = {
+			fileRef = 8DDE37D5081CB013009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE37E5081CB279009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = logger.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE37E6081CB279009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = logger.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE37E7081CB279009102F2 = {
+			fileRef = 8DDE37E6081CB279009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3831081CB30A009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = graphics.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3832081CB30A009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = graphics.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3833081CB30A009102F2 = {
+			fileRef = 8DDE3832081CB30A009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE387E081CB4BC009102F2 = {
+			children = (
+				8DDE3890081CB500009102F2,
+				8DDE387F081CB4D2009102F2,
+				8DDE3880081CB4D2009102F2,
+				8DDE3881081CB4D2009102F2,
+				8DDE3882081CB4D2009102F2,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE387F081CB4D2009102F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DDE3880081CB4D2009102F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = /System/Library/Frameworks/CoreAudio.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DDE3881081CB4D2009102F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = GLUT.framework;
+			path = /System/Library/Frameworks/GLUT.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DDE3882081CB4D2009102F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = OpenGL.framework;
+			path = /System/Library/Frameworks/OpenGL.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8DDE3883081CB4D2009102F2 = {
+			fileRef = 8DDE387F081CB4D2009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3884081CB4D2009102F2 = {
+			fileRef = 8DDE3880081CB4D2009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3885081CB4D2009102F2 = {
+			fileRef = 8DDE3881081CB4D2009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3886081CB4D2009102F2 = {
+			fileRef = 8DDE3882081CB4D2009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3890081CB500009102F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = archive.ar;
+			path = libode.a;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3891081CB500009102F2 = {
+			fileRef = 8DDE3890081CB500009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE38A9081CB567009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = objload.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE38AA081CB567009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = objload.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE38AB081CB567009102F2 = {
+			fileRef = 8DDE38AA081CB567009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3930081CB87C009102F2 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = "objload-mod.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE393C081CB9DD009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = "objload-obj.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE393D081CB9DD009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = "objload-obj.c";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE393E081CB9DD009102F2 = {
+			fileRef = 8DDE393D081CB9DD009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3976081CBDA5009102F2 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = texturemanager.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3977081CBDA5009102F2 = {
+			fileRef = 8DDE3976081CBDA5009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE397A081CBE40009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = texturemanager.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3A80081CC9E3009102F2 = {
+			fileRef = 8DDE3930081CB87C009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8DDE3C87081D255C009102F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = TODO.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8DDE3C88081D255C009102F2 = {
+			fileRef = 8DDE3C87081D255C009102F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 8DDE3761081CAA50009102F2;
+}
